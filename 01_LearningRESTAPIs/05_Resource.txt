@@ -1,0 +1,13 @@
+* Resource
+    The key abstraction of information in REST is a resource. Any information that can be named can be a resource: a document or image, a temporal service, a collection of other resources, a non-virtual object ... and so on.
+
+    In other words, any concept that might be target of an author's hypertext reference must fit within the definition os a resource.
+
+    A resource is a conceptual mapping to a set of entities not the entity that crossponds to the mapping at any particular point in time. 
+
+    REST components perform action on a resource by using a representation to capture the current or intended state of that resource and transferring that representation between components.
+
+* Rest Server - Creates a unique representation that can be modified to fit specification
+
+* Resource - The data contained at the end of the resource URI
+* Representation - Representation of the data obtained on access

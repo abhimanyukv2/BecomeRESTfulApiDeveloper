@@ -1,0 +1,24 @@
+1xx     Information
+
+2xx     Success
+200     OK
+201     Created
+204     No contetnt
+
+3xx     Redirection
+301     Moved permanently
+302/303 Found at this other URL
+307     Temporary redirect
+308     Resume incomplete
+
+4xx     Client error
+400     Bad request
+401     Unauthorized
+403     Forbidden
+404     Not Found
+405     Method Not allowed
+
+5xx     Server error
+500     Internal server error
+502     Bad gateway
+503     Service unavailable

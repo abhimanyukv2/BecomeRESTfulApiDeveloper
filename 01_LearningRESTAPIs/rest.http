@@ -1,0 +1,9 @@
+# GET https://reqres.in/api/users̥
+
+# GET https://site.com/wp.json/wp/v2/posts
+
+# POST https://site.com/wp.json/wp/v2/posts
+
+# OPTIONS https://site.com/wp.json/wp/v2/posts
+
+OPTIONS  https://site.com/wp.json/wp/v1/posts

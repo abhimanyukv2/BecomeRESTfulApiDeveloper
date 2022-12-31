@@ -1,0 +1,20 @@
+* Universal Resource Identifier (URI)
+    A compact sequence of characters that identifies an abstract or physical resource that provides a simple and extensible means for identifying a resource
+
+    example 
+        1. https://restful.dev/posts/5
+        2. ftp://myserver.dev/files/docs/script.docx
+        3. mailto:morten@example.com
+        4. tel:+1-888-555-1122
+        5. urn:library:names:authors:mrh
+        6. library:names:authors:mrh 
+
+* Universal Resource Locator (URL)
+    Subset of the URI that identifies a resource and explain how to access that resource by providing an explicit method like https:// or ftp://
+
+* Method - Defines how to access resource
+    URI - https://thinkarahatke.com/author/amty.html#posts
+    URL - https://thinkarahatke.com/author/amty.html
+    URN - thinkarahatke.com/author/amty.html#posts
+    Location (where resource resides) - html
+    Resource - posts

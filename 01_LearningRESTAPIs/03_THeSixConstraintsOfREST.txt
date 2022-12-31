@@ -1,0 +1,31 @@
+* REpresentational State Transfer (REST)
+    refers to a group of softwere architecture design constraints that bring about efficient, reliable, and scalable system
+
+* The Six Constraints of REST
+    1. Client-server architecture
+        The client manages user interface concern while the server manages data storage concern
+
+    2. Statelessness
+        No client context or information aka "state", can stored on the server between requesst
+
+    3. Cacheability
+        All REST responses must be clearly marked as cacheable or not cacheable
+
+    4. Layered system
+        The client cannot know, and shouldn't care, whether it's connected directly to the server or to an intermediary linke a CDN or mirror.
+
+    5. Code on demand
+        Servers are allowed to Transfer executable code like JavaScript and complied components to clients.
+
+    6. Uniform interface
+        1. Resource identification in request
+            The URI request must specify what resource it is looking for and what format the response should use.
+
+        2. Resource manipulation through representation
+            Once a client has a representation of a resource, it can modify or delete the resource.
+
+        3. Self-descriptive messages
+            This goes for both sending and receiving REST data. Each representation must describe its own data format.
+
+        4. Hypermedia as the engine of the application state
+            Once a client has access to the REST service, it should be able to descrive all available resource and methods through the hyperlinks provided.

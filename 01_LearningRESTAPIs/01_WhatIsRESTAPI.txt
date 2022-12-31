@@ -1,0 +1,8 @@
+* Representational State Transfer (REST) refers to a group of softwere architecture design constraints that bring about efficient, reliable, and scalable system.
+
+* URI - Universal Representational Interface 
+
+* Modify <-> Replace <-> Delete
+* GET -PUT - DELETE
+
+* Application Programming Interface (API) - A set of features and rules that exist inside a softwere program enabling interaction between the softwere and the other items, such as other softwere or hardwere"

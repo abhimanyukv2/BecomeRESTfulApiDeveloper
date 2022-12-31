@@ -1,0 +1,55 @@
+Methods     Resource URI
+
+GET         
+POST
+PUT
+PATCH       https://restful.dev.posts/5
+DELETE
+OPTIONS
+HEAD
+
+GET         https://site.com/wp.json/wp/v2/posts
+
+GET             wp.json/wp/v2/posts HTTP/1.1
+Host            appsite.dev
+content-Type:   application/json
+Authorization:  Basic dG9t0nBhc3N3b3JK
+Cache-Control: no-cache
+
+{
+    "title": "Angela creates a new task generated from the REST API",
+    "content": "This is the content for the new post.",
+    "author": 10
+}
+
+POST            wp.json/wp/v2/posts HTTP/1.1
+Host            appsite.dev
+content-Type:   application/json
+Authorization:  Basic Morten pass
+Cache-Control: no-cache
+
+{
+    "title": "Angela creates a new task generated from the REST API",
+    "content": "This is the content for the new post.",
+    "author": 10
+}
+
+var xhr = new XMLHttpRequest();
+xhr.open("GET","https://site.com/wp-json/wp/v2/posts", true);
+xhr.onload = function() {
+    console.log(xhr.responseText);
+};
+xhr.send();
+
+$.ajax({
+    url: "https://site.com/wp-json/wp/v2/posts",
+    type: "POST",
+    data: {
+        title: "Angela creates a new task generated from the REST API",
+        content: "This is the content for the new post.",
+        author: 10,
+    },
+    success: function(response) {
+        console.log(response);
+    }
+});
