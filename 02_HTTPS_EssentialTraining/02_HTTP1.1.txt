@@ -1,0 +1,11 @@
+* HTTP/1.1
+    By contrast
+        1. Uncompressed headers
+        2. Transfer one file at a time
+        3. No default encryption
+
+Idel:
+    every HTTP > HTTPS using HTTP/2 protocol
+Real:
+    most HTTP > HTTPS over HTTP/2
+              > unencrypted HTTP/1.1

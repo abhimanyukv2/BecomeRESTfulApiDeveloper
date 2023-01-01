@@ -1,0 +1,10 @@
+* URL - Human-readable address describing where on the web a particular resource is located
+
+https://www.linkedin.com/learning/http-essential-training/anatomy-of-a-url?autoSkip=true&autoplay=true&dApp=68211596&leis=LAA&resume=false&u=2154233
+
+* Protocol declaration - https://
+* URN: Uniform Resource Name - www.linkedin.com/learning/http-essential-training/anatomy-of-a-url?autoSkip=true&autoplay=true&dApp=68211596&leis=LAA&resume=false&u=2154233
+* Host - linkedin.com
+* Connection port (usually hidden) - :443
+* Resource Path - learning/http-essential-training/anatomy-of-a-url
+* URL queru - u=2154233

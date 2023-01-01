@@ -1,0 +1,19 @@
+* HTTP : Hypertext Transfer Protocol
+
+* Plain Language and Humans Readable
+    1. GET
+    2. POST
+    3. PUT
+    4. DELETE
+    5. CONNECT
+    6. HEAD
+
+* HTTP Header
+    1. What type of client sent the request
+    2. Server configuration
+    3. Time and date of the response
+    4. Duration of data storages
+    5. Data format
+    6. Cookies used to track sessions
+
+* HTTP works based on request/response pairs.

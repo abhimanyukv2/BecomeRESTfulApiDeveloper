@@ -1,0 +1,23 @@
+* Get the specified resource, if available
+    Success(200 Ok) <- GET -> Faliure (404 Not Found)
+
+* Create a new resource and add it to a collection
+    Success (201 Created) <- POST -> Faliure (401 Unauthorized, or 409 Conflict, or 404 Not Found)
+
+* Update an existing singleton resource based on ID.
+    Success (200 OK) <- PUT -> Faliure (401 Unauthorized, or 404 Not Found, or 405 Method Not Allowed)
+
+* Modify an existing singleton resource based on ID.
+    Success (200 OK) <- PATCH -> Faliure (401 Unauthorized, or 404 Not Found, or 405 Method Not Allowed)
+
+* Delete singleton resource based on ID.
+    Success (200 OK) <- DELETE -> Faliure (401 Unauthorized, or 404 Not Found)
+
+* Get the options available from the resource.
+    Success (200 OK) -> OPTIONS
+
+* Get just the response headers from the resource.
+    Success(200 Ok) <-HEAD -> Faliure (404 Not Found)
+
+* Create a loopback for the request message.
+    Success (200 OK) <- TRACE
